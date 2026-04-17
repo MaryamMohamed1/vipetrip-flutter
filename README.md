@@ -1,41 +1,44 @@
 # 📱 VibeTrip – Find Your Perfect Spot
 
-**VibeTrip** هو تطبيق ذكي لاقتراح أماكن الخروج بناءً على **المود (Mood)** و **الميزانية (Budget)**، مما يسهل على المستخدمين اختيار وجهتهم المثالية بضغطة زر واحدة.
+**VibeTrip** is a smart and innovative outings guide designed to solve the problem of choosing where to go. Instead of users searching the traditional way, the app suggests the best places and activities based on their mood and budget.
 
 ---
 
-## 🎯 فكرة التطبيق (App Idea)
-بدلاً من البحث التقليدي، يقدم التطبيق ترشيحات مخصصة (Relax, Adventure, Nostalgic) مع تفاصيل كاملة عن المكان، الموقع، ومعرض صور تفاعلي لاتخاذ قرار سريع بالحجز.
+## 🎯 App Idea
+Whether they're looking for a place to relax, study, have an adventurous experience, or even a classic spot with a touch of nostalgia, VibeTrip provides the perfect recommendation at the touch of a button, along with details about the place, its location, and an interactive photo gallery to help them decide and book.
 
 ---
 
-## 👥 الفئات المستهدفة
-* **الشباب والطلاب:** للبحث عن أماكن للمذاكرة أو التجمع.
-* **العائلات:** لاكتشاف خيارات ترفيهية تناسب ميزانيتهم.
-* **السياح:** لاستكشاف المعالم التراثية في مصر.
+## 👥 Target Audience
+* **Youth and university students:** To find places to study or socialize.
+* **Families:** To discover entertainment options that suit their budget.
+* **Tourists and visitors:** To explore tourist attractions and heritage sites in Egypt.
+* **Anyone feeling bored:** Looking for a quick and guaranteed outing suggestion.
 
 ---
 
-## 📱 شاشات التطبيق (Screens)
+## 📱 Screen Descriptions
 <details>
-  <summary>إضغط لعرض تفاصيل الواجهات</summary>
+  <summary>Click to expand screen details</summary>
 
-1. **Splash & Welcome:** واجهات ترحيبية بتصميم UI/UX عصري.
-2. **Login Screen:** واجهة سلسة لتخصيص التجربة باسم المستخدم.
-3. **Home Screen:** لوحة التحكم لاختيار "المود" والفلاتر الذكية.
-4. **Explore Screen:** عرض النتائج في Grid View مع نظام "Empty State" في حال عدم التوفر.
-5. **Place Details:** استخدام Bottom Sheet لعرض تفاصيل المكان ومعرض الصور التفاعلي.
+1.  **Splash Screen:** Stylish welcome with simple animations.
+2.  **Welcome Screen:** UI/UX screen introducing the app's value.
+3.  **Login Screen:** Seamless interface that personalizes the experience using the user's name.
+4.  **Home Screen:** Main panel with a **Smart Filter** (Mode & Budget) and Featured Outings.
+5.  **Explore Screen:** Displays matching places in a **Grid View** with an "Empty State" for no results.
+6.  **Place Details:** An interactive **Bottom Sheet** containing a photo gallery, location, rating, and "Book Now" button.
 </details>
 
 ---
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
-* **Framework:** Flutter (Dart Language).
-* **State Management:** `StatefulWidget` & `setState`.
-* **UI Features:** * `LinearGradient` لخلفيات جذابة.
-    * `GridView` و `ListView.builder` لعرض البيانات.
-    * `ModalBottomSheet` لعرض التفاصيل بشكل سلس.
-* **IDE:** Visual Studio Code.
+## 🛠️ Technologies & Tools Used
+* **Framework:** Flutter
+* **Language:** Dart
+* **State Management:** `StatefulWidget` and `setState` for dynamic UI updates.
+* **UI/UX Design:** * Responsive design with `LinearGradient`.
+    * `GridView` and `ListView.builder` for efficient lists.
+    * `ModalBottomSheet` for seamless details view.
+* **IDE:** Visual Studio Code (VS Code).
 
 ---
-> تم تطوير هذا المشروع لدمج حلول التكنولوجيا في تحسين تجربة الترفيه والسياحة.
+> This project showcases the integration of smart filtering and modern UI components to enhance the user experience in trip planning.
